@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Docker/OS cruft
+*.log
+.DS_Store
+
+# App artifacts
+app/outputs/*
+!app/outputs/.gitkeep
